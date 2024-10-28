@@ -1,9 +1,10 @@
 import requests
+from dotenv import load_dotenv
 import csv
 import os
 
 # Load GitHub token from environment variable
-GITHUB_TOKEN = "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"
+GITHUB_TOKEN = os.getenv.GITHUB_TOKEN
 if not GITHUB_TOKEN:
     raise ValueError("GitHub token not found. Please set it as an environment variable named 'GITHUB_TOKEN'.")
 
