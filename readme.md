@@ -1,7 +1,7 @@
 Data Collection:
--Data collected using GitHub API
--Date of collection: 2024-10-29
--Only included users with 200+ followers
+- Data collected using GitHub API
+- Date of collection: 2024-10-29
+- Only included users with 200+ followers
 
 Interesting Insight:
 - Data was scraped from the GitHub API by filtering users in Seattle with over 2000 followers and fetching their most recent repositories.
